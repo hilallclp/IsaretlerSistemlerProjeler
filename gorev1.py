@@ -1,8 +1,3 @@
-# BIL216 - Odev 1
-# Ogrenciler:
-# 230601056 - Hilal Calp
-# 240601004
-# 240601027
 
 import numpy as np
 import matplotlib.pyplot as plt
