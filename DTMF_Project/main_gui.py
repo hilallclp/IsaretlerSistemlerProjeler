@@ -38,7 +38,7 @@ class DTMF_GUI(QWidget):
 
     def text_to_audio(self):
         from encoder import encode_text
-        # 🚀 Input Dialog ekledik
+        # Input Dialog ekledik
         text, ok = QInputDialog.getText(self, "Metin → Ses", "Metni gir:")
         if ok and text:
             encode_text(text, filename="output.wav")
